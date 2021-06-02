@@ -21,4 +21,5 @@ public interface AccountRepository extends JpaRepository<Account, String> {
      * @return 返回账户信息，如果没有找到则返回null
      */
     Account findAccountByUsername(String username);
+
 }
